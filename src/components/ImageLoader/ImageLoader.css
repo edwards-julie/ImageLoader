@@ -1,8 +1,11 @@
+/* ImageLoader container is responsive to the window size */
 .image-loader {
   width: 100%;
   max-width: 1200px;
 }
 
+/* Thumb and fullsize images are absolutely positioned and full width,
+causing them to completely overlap */
 .image-loader img {
   display: block;
   position: absolute;
