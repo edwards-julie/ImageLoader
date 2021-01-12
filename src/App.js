@@ -1,9 +1,11 @@
 import React from 'react';
 
+import ImageLoader from './components/ImageLoader'
+
 function App() {
   return (
     <React.StrictMode>
-      <h1>Hello World</h1>
+      <ImageLoader />
     </React.StrictMode>
   )
 }
