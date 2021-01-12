@@ -1,0 +1,8 @@
+.image-loader {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.image-loader img {
+  width: 100%;
+}

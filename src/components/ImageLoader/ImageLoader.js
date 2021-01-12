@@ -1,8 +1,16 @@
 import React from 'react';
 
-function ImageLoader() {
+import './ImageLoader.css'
+
+function ImageLoader(props) {
+  const { fullsize } = props;
+
   return (
-    <h3>{'Image Loader'}</h3>
+    <div className={'image-loader'}>
+      <img
+        src={fullsize}
+      />
+    </div>
   )
 }
 
